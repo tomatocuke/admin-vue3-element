@@ -1,0 +1,25 @@
+{
+  "name": "admin-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "local": "vite --mode _",
+    "dev": "vite --mode dev",
+    "prod": "vite --mode prod",
+    "build:dev": "vite build --mode dev",
+    "build:prod": "vite build --mode prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "2.1.0",
+    "element-plus": "2.3.8",
+    "vue": "3.3.4",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.69.5",
+    "vite": "^4.4.0"
+  }
+}
